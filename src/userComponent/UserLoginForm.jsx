@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const UserLoginForm = () => {
   let navigate = useNavigate();
@@ -154,7 +155,15 @@ const UserLoginForm = () => {
                   value={loginRequest.password}
                   required
                 />
+               
               </div>
+               <p><Link
+          to="/user/forget-password"
+          style={{textDecoration:'none'}}
+          aria-current="page"
+        >
+          Forget Password
+        </Link></p>
               <button
                 type="submit"
                 className="btn bg-color custom-bg-text"
@@ -162,6 +171,13 @@ const UserLoginForm = () => {
               >
                 Login
               </button>
+               <p> New Customer? <Link
+                        to="/user/customer/register"
+                        
+                        aria-current="page"
+                      >
+                        Register
+                      </Link></p>
               <ToastContainer />
             </form>
           </div>

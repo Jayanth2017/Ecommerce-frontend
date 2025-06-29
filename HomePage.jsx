@@ -4,6 +4,7 @@ import ProductCard from "../productComponent/ProductCard";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import Footer from "./src/pages/Footer";
 
 const HomePage = () => {
   const [products, setProducts] = useState([]);
@@ -62,12 +63,15 @@ const HomePage = () => {
                 {products.map((product) => {
                   return <ProductCard item={product} />;
                 })}
+                
               </div>
             
           </div>
         </div>
       </div>
+      
     </div>
+    
   );
 };
 

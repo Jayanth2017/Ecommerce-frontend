@@ -1,6 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 const HeaderUser = () => {
   let navigate = useNavigate();
@@ -24,7 +26,7 @@ const HeaderUser = () => {
     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
       <li class="nav-item">
         <Link to="/user/mycart" class="nav-link active" aria-current="page">
-          <b className="text-color">My Cart</b>
+          <b className="text-color"> <i className="bi bi-cart"></i></b>
         </Link>
       </li>
 

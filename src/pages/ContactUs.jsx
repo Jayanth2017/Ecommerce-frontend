@@ -8,22 +8,17 @@ const ContactUs = () => {
       <div className="contact-section" style={styles.contactSection}>
         {/* Left Section */}
         <div style={styles.leftSection}>
-          <h4>🏢 Our Office</h4>
-          <p>
-            Online Shopping Pvt. Ltd.<br />
-            #27, 2nd Floor, Digital Market Street,<br />
-            Chennai, Tamil Nadu - 600001, India
-          </p>
+         
 
           <h4 >📞 Phone</h4>
           <p>
-            +91 98765 43210<br />
+            +91 8151807450<br />
             (Available: Mon–Sat, 10AM to 7PM)
           </p>
 
           <h4>📧 Email</h4>
           <p style={styles.emailText}>
-            <a href="mailto:support@onlineshopping.com" >support@onlineshopping.com</a><br />
+            <a href="mailto:ahjayanth@gmail.com" >support@onlineshopping.com</a><br />
             {/* <a href="mailto:sales@nastroshop.com" style={styles.emailLink}>sales@nastroshop.com</a> */}
           </p>
 
@@ -66,13 +61,13 @@ const ContactUs = () => {
             <div style={styles.testimonialCard}>
               <blockquote>
                 "The best online shopping experience! Fast delivery and great customer support."
-                <footer>- Rathinavel M</footer>
+                <footer>- Chandrashekar</footer>
               </blockquote>
             </div>
             <div style={styles.testimonialCard}>
               <blockquote>
                 "Amazing product quality and variety. I'll definitely be shopping here again!"
-                <footer>- Girish Kumar</footer>
+                <footer>- Likith R</footer>
               </blockquote>
             </div>
           </div>
